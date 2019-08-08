@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Style.css">
+  <title>ANIME</title>
+
+  <!-- the eye icon -->
+  <link rel="icon" href="icon.png">
+
+  <!-- Calling the blossoms on the Javascript -->
+  <script src="blossoms.js"></script>
+
+
+
+</head>
+<body>
+
+
+  <header class="header"> </header>
+    <div> <p>ANIME</p> </div>
+
+    <div> <button class="openbtn" onclick="openNav()">☰ </button> </div>
+
+    <!--<p class="anime">ANIME</p>-->
+
+    <div id="main">
+
+      <!-- Button for sidebar-->
+
+
+
+    </div>
+<strong class="title"><center>Categories:</center></strong>
+
+    <!--category buttons -->
+    <div><center>
+    <button id="action"><img src="action.jpeg"></button>
+    <button id="comedy" ><img src="comedy.jpg"></button></center></div>
+    <div><center>
+    <button id="drama" ><img src="drama.jpg"</button>
+    <button id="fantasy"><img src="fantasy.jpg"></button></center></div>
+    <div><center>
+    <button id="horror" ><img src="horror.jpg"></button>
+    <button id="mystery" ><img src="mystery.jpg"</button></center></div>
+    <div><center>
+    <button id="psychological" ><img src="psychological.jpg"</button>
+    <button id="romance" ><img src="romance.jpg"</button></center></div>
+    <div><center>
+    <button id="school" ><img src="school.jpg"</button>
+    <button id="sliceoflife" ><img src="sliceoflife.jpg"</button></center></div>
+
+
+
+
+
+<!-- sidebar code -->
+<div id="mySidebar" class="sidebar">
+  <a <center> <img src="title.png" id="image"> </center> </a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#About Us">About Us</a>
+  <a href="#Basic Info">Basic Info</a>
+  <a href="#Girls Who Code">Girls Who Code</a>
+</div>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+
+</html>
