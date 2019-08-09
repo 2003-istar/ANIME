@@ -7,6 +7,7 @@ function randNum(min, max) {
 _ = self.Flower = function(opts){
   this.left = opts.left;
   this.top = opts.top;
+  this.bottom = opts.bottom;
   this.size = randNum(1.5, 6);
   this.drawFlower();
 }
@@ -29,7 +30,7 @@ _.prototype = {
     var max_right = _this.left + randNum(20, 50);
     var max_left = _this.left - randNum(20, 50);
     var dir_i = randNum(0,1);
-    var directions = ['left', 'right'];
+    var directions = ['left', 'right','down'];
     var direction = directions[dir_i];
     (function fall() {
       if (_this.left === max_left){
@@ -79,7 +80,7 @@ _.prototype = {
         transform: 'rotate(-47deg)',
         left: '50%',
         marginLeft: '-'+this.size/4+'vmin',
-        top: 0
+        top: 0,
       },{
         transform: 'rotate(15deg)',
         left: '100%',

@@ -1,7 +1,7 @@
 /* background color*/
 body {
   background-color: black;
-  border-style: dotted;
+  border-style: dashed;
   border-color: pink;
   border-width: thick;
 }
@@ -10,8 +10,11 @@ body {
   font-size: 45px;
   color:pink;
   text-align:center;
-  margin-top: -52px;
+  margin-top: -46px;
 
+}
+p{
+  margin-top: -40px;
 }
 
 .openbtn,.anime {
@@ -27,7 +30,7 @@ body {
   height:70%;
 }
 
-p{
+h1{
   font-size: 80px;
   color:black;
   text-align: center;
@@ -39,7 +42,7 @@ p{
 
 .header {
   background-image: url("tenor.gif");
-  height: 300px;
+  height: 400px;
   background-size: cover;
 
 }
@@ -68,6 +71,8 @@ p{
 
 .sidebar a:hover {
   color: pink;
+  border-style: dashed;
+  border-color: pink;
 }
 
 .sidebar .closebtn {
@@ -169,30 +174,35 @@ p{
   padding: 15px 18px;
   border: none;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 33px;
 }
 #size{
   width: 300px;
   height: 150px;
   margin-right: 95px;
   margin-left: 120px;
-  padding: 35px 40px;
-  border-style: dashed;
-  border-color: white;
-  border-width: medium;
+  margin-bottom: 100px;
 }
+
 #size2{
   width: 300px;
   height: 150px;
   margin-left: 95px;
   margin-right: 120px;
-  padding: 35px 40px;
-  border-style: dashed;
-  border-color: white;
-  border-width: medium;
+  margin-bottom: 100px;
 }
+
+.genbut:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 15px 15px;
+  border-style: dashed;
+  border-color: pink;
+  border-width: thick;
+}
+
 .openbtn:hover {
-  background-color: pink;
+  background-color: white;
 }
 
 .anime {
