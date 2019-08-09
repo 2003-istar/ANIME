@@ -10,51 +10,55 @@
   <!-- Calling the blossoms on the Javascript -->
   <script src="blossoms.js"></script>
 
-
-
 </head>
 <body>
-
 
   <header class="header"> </header>
     <div> <p>ANIME</p> </div>
 
-    <div> <button class="openbtn" onclick="openNav()">☰ </button> </div>
+    <!-- Button for sidebar-->
+    <div> <button class="openbtn" onclick="openNav()"> ☰ </button> </div>
 
     <!--<p class="anime">ANIME</p>-->
 
-    <div id="main">
-
-      <!-- Button for sidebar-->
+    <!-- <div id="main">
 
 
-
+    </div> -->
+    <div class="title">
+      <center>Genres:</center>
     </div>
-<strong class="title"><center>Categories:</center></strong>
+
+    <!-- Searchbar-->
+     <div class="topnav">
+      <br><input type="text" placeholder="Search..."></br>
+    </div>
+
 
     <!--category buttons -->
     <div><center>
-    <button id="action"><img src="action.jpeg"></button>
-    <button id="comedy" ><img src="comedy.jpg"></button></center></div>
+      <br><button id="action"><img src="action.jpeg" id= "size"></button>
+      <button id="comedy" ><img src="comedy.jpg" id= "size2"></button></br>
+    </center></div>
     <div><center>
-    <button id="drama" ><img src="drama.jpg"</button>
-    <button id="fantasy"><img src="fantasy.jpg"></button></center></div>
+        <button id="drama" ><img src="drama.jpg" id= "size"></button>
+        <button id="fantasy"><img src="fantasy.jpg" id= "size2"></button>
+      </center></div>
     <div><center>
-    <button id="horror" ><img src="horror.jpg"></button>
-    <button id="mystery" ><img src="mystery.jpg"</button></center></div>
+      <button id="horror" ><img src="horror.jpg" id= "size"></button>
+      <button id="mystery" ><img src="mystery.jpg" id= "size2"></button>
+    </center></div>
     <div><center>
-    <button id="psychological" ><img src="psychological.jpg"</button>
-    <button id="romance" ><img src="romance.jpg"</button></center></div>
+      <button id="psychological" ><img src="psychological.jpg" id= "size"></button>
+      <button id="romance" ><img src="romance.jpg" id= "size2" ></button>
+    </center></div>
     <div><center>
-    <button id="school" ><img src="school.jpg"</button>
-    <button id="sliceoflife" ><img src="sliceoflife.jpg"</button></center></div>
-
-
-
-
+      <button id="school" ><img src="school.jpg" id= "size"></button>
+      <button id="sliceoflife" ><img src="sliceoflife.jpg" id= "size2"></button>
+    </center></div>
 
 <!-- sidebar code -->
-<div id="mySidebar" class="sidebar">
+  <div id="mySidebar" class="sidebar">
   <a <center> <img src="title.png" id="image"> </center> </a>
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
   <a href="#About Us">About Us</a>
@@ -63,17 +67,17 @@
 </div>
 
 
-<script>
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
 
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-</script>
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
 </body>
 
 </html>
