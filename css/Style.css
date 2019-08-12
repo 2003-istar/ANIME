@@ -13,6 +13,22 @@ body {
   margin-top: -46px;
 
 }
+
+.tab {
+  margin-left: 104px;
+}
+
+h2{
+  font-size: 40px;
+  color: pink;
+  margin-top: -3px;
+}
+h3{
+  font-size: 30px;
+  color: white;
+  margin-top:-3px
+}
+
 p{
   margin-top: -40px;
 }
@@ -37,6 +53,7 @@ h1{
   margin-top: -200px;
   font-style: italic;
   font-family: fantasy;
+  margin-left: 89px;
 
 }
 
